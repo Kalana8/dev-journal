@@ -1,0 +1,34 @@
+name: Daily Dev Log
+
+on:
+  schedule:
+    - cron: '30 16 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Append today's note
+        run: |
+          TIP=$(shuf -n 1 tips.txt)
+          DATE=$(date -u +"%Y-%m-%d")
+          printf "\n## %s\n%s\n" "$DATE" "$TIP" >> LOG.md
+
+      - name: Commit and push
+        run: |
+          git config user.name "Kalana Kavinda"
+          git config user.email "kalanakavinda8@gmail.com"
+          git add LOG.md
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "Daily log: $(date -u +"%Y-%m-%d")"
+          git push
