@@ -1,0 +1,41 @@
+Debounce expensive onChange handlers in React forms — it cuts re-renders and API calls dramatically on large forms.
+useMemo and useCallback aren't free — only reach for them when a child is memoized or a computation is genuinely expensive.
+Postgres partial indexes (CREATE INDEX ... WHERE ...) can shrink index size a lot when you only ever query a subset of rows.
+Supabase Row Level Security policies are evaluated per-row — write them with an index-friendly WHERE clause or they'll silently slow every query.
+Next.js server actions still need their own input validation — never trust the client just because the call looks server-side.
+A composite index only helps a query if the leading column is used in the WHERE clause — column order matters.
+React Query's staleTime vs cacheTime confusion is the #1 cause of "why is this refetching so much" bugs.
+Multi-tenant SaaS: always scope queries by tenant_id at the query-builder level, not just in RLS, so a bug fails loudly instead of leaking data.
+Zod schemas can double as both API validation and TypeScript types — one source of truth beats writing both by hand.
+Node's structuredClone() is a built-in deep clone — no need for JSON.parse(JSON.stringify()) anymore.
+Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
+Postgres EXPLAIN ANALYZE is the fastest way to find out why a "simple" query is suddenly slow after the table grew.
+Webhooks from payment providers (Stripe, PayPal) should be idempotent — a retry should never double-charge or double-fulfill.
+CSS container queries are production-ready now and often replace what used to need a JS resize observer.
+A monorepo with shared types between frontend and backend kills a whole category of "the API changed and nobody told the client" bugs.
+Rate-limit your own public API endpoints before someone else finds out you didn't.
+React's key prop should be a stable ID, never an array index, if the list can reorder or filter.
+Database migrations should always be reversible — write the down migration before you need it in a panic.
+JWT expiry is a UX decision as much as a security one — too short and you annoy users with constant re-logins.
+Edge functions are great for latency-sensitive reads, but keep anything with side effects on a normal server you can retry safely.
+A good onboarding flow saves support tickets — the cheapest customer support is the one you never need.
+Feature flags let you ship code dark and turn it on for a subset of tenants before a full rollout.
+Always index foreign key columns in Postgres — they aren't indexed automatically like the primary key is.
+console.log debugging is fine right up until production — then it's a silent perf and log-noise cost.
+Client-side form validation is UX, not security — validate again on the server no matter how good the frontend checks are.
+A staging environment that doesn't mirror production data volume will hide the bugs that only show up at scale.
+Cache invalidation is still one of the two hard problems in computer science — design the invalidation strategy before you cache anything.
+TypeScript's strict mode catches a surprising number of real bugs, not just style nits — worth the initial pain of turning it on.
+Long-running Node processes should always have a health check endpoint — you can't fix what you can't see is broken.
+Batch your database writes where you can — N+1 writes are just as costly as N+1 reads.
+A well-named git commit is documentation you write once and read forever — future-you will thank present-you.
+Supabase Realtime subscriptions can pile up fast if components don't clean up on unmount — always return the unsubscribe function.
+CORS errors almost always mean the preflight OPTIONS request isn't being handled, not that the actual request is wrong.
+Pagination with cursor-based keys scales far better than OFFSET once a table gets into the millions of rows.
+Environment-specific config belongs in env vars, never hardcoded — even "just for now" hardcoding has a way of becoming permanent.
+A loading skeleton that matches the real layout feels faster than a spinner, even at the same actual load time.
+Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobile networks and double-clicks alike.
+Testing the unhappy path (network failure, empty state, permission denied) catches more real bugs than testing the happy path twice.
+Vercel's edge config and ISR revalidation are a cheap way to get near-static performance on data that changes a few times a day.
+A design system pays for itself the moment you have two developers touching the UI at once.
+Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
