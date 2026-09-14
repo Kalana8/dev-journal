@@ -8,3 +8,6 @@ Pagination with cursor-based keys scales far better than OFFSET once a table get
 
 ## 2026-09-13
 CSS container queries are production-ready now and often replace what used to need a JS resize observer.
+
+## 2026-09-14
+Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobile networks and double-clicks alike.
