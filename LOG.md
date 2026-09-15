@@ -11,3 +11,6 @@ CSS container queries are production-ready now and often replace what used to ne
 
 ## 2026-09-14
 Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobile networks and double-clicks alike.
+
+## 2026-09-15
+Webhooks from payment providers (Stripe, PayPal) should be idempotent — a retry should never double-charge or double-fulfill.
