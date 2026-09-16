@@ -14,3 +14,6 @@ Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobi
 
 ## 2026-09-15
 Webhooks from payment providers (Stripe, PayPal) should be idempotent — a retry should never double-charge or double-fulfill.
+
+## 2026-09-16
+Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
