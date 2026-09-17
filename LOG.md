@@ -17,3 +17,6 @@ Webhooks from payment providers (Stripe, PayPal) should be idempotent — a retr
 
 ## 2026-09-16
 Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
+
+## 2026-09-17
+Zod schemas can double as both API validation and TypeScript types — one source of truth beats writing both by hand.
