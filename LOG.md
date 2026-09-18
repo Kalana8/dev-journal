@@ -20,3 +20,6 @@ Log structured JSON, not free-text strings — it's the difference between grepp
 
 ## 2026-09-17
 Zod schemas can double as both API validation and TypeScript types — one source of truth beats writing both by hand.
+
+## 2026-09-18
+React's key prop should be a stable ID, never an array index, if the list can reorder or filter.
