@@ -23,3 +23,6 @@ Zod schemas can double as both API validation and TypeScript types — one sourc
 
 ## 2026-09-18
 React's key prop should be a stable ID, never an array index, if the list can reorder or filter.
+
+## 2026-09-19
+CSS container queries are production-ready now and often replace what used to need a JS resize observer.
