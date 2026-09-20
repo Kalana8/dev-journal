@@ -26,3 +26,6 @@ React's key prop should be a stable ID, never an array index, if the list can re
 
 ## 2026-09-19
 CSS container queries are production-ready now and often replace what used to need a JS resize observer.
+
+## 2026-09-20
+Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
