@@ -29,3 +29,6 @@ CSS container queries are production-ready now and often replace what used to ne
 
 ## 2026-09-20
 Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
+
+## 2026-09-21
+A loading skeleton that matches the real layout feels faster than a spinner, even at the same actual load time.
