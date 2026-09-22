@@ -32,3 +32,6 @@ Optimistic UI updates feel instant, but always reconcile with the server respons
 
 ## 2026-09-21
 A loading skeleton that matches the real layout feels faster than a spinner, even at the same actual load time.
+
+## 2026-09-22
+Webhooks from payment providers (Stripe, PayPal) should be idempotent — a retry should never double-charge or double-fulfill.
