@@ -35,3 +35,6 @@ A loading skeleton that matches the real layout feels faster than a spinner, eve
 
 ## 2026-09-22
 Webhooks from payment providers (Stripe, PayPal) should be idempotent — a retry should never double-charge or double-fulfill.
+
+## 2026-09-23
+Pagination with cursor-based keys scales far better than OFFSET once a table gets into the millions of rows.
