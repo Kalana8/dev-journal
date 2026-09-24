@@ -38,3 +38,6 @@ Webhooks from payment providers (Stripe, PayPal) should be idempotent — a retr
 
 ## 2026-09-23
 Pagination with cursor-based keys scales far better than OFFSET once a table gets into the millions of rows.
+
+## 2026-09-24
+Edge functions are great for latency-sensitive reads, but keep anything with side effects on a normal server you can retry safely.
