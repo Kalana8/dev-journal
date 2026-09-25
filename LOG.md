@@ -41,3 +41,6 @@ Pagination with cursor-based keys scales far better than OFFSET once a table get
 
 ## 2026-09-24
 Edge functions are great for latency-sensitive reads, but keep anything with side effects on a normal server you can retry safely.
+
+## 2026-09-25
+Testing the unhappy path (network failure, empty state, permission denied) catches more real bugs than testing the happy path twice.
