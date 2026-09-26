@@ -44,3 +44,6 @@ Edge functions are great for latency-sensitive reads, but keep anything with sid
 
 ## 2026-09-25
 Testing the unhappy path (network failure, empty state, permission denied) catches more real bugs than testing the happy path twice.
+
+## 2026-09-26
+Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
