@@ -47,3 +47,6 @@ Testing the unhappy path (network failure, empty state, permission denied) catch
 
 ## 2026-09-26
 Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
+
+## 2026-09-27
+CSS container queries are production-ready now and often replace what used to need a JS resize observer.
