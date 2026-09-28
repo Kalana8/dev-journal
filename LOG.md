@@ -50,3 +50,6 @@ Log structured JSON, not free-text strings — it's the difference between grepp
 
 ## 2026-09-27
 CSS container queries are production-ready now and often replace what used to need a JS resize observer.
+
+## 2026-09-28
+JWT expiry is a UX decision as much as a security one — too short and you annoy users with constant re-logins.
