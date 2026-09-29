@@ -53,3 +53,6 @@ CSS container queries are production-ready now and often replace what used to ne
 
 ## 2026-09-28
 JWT expiry is a UX decision as much as a security one — too short and you annoy users with constant re-logins.
+
+## 2026-09-29
+A composite index only helps a query if the leading column is used in the WHERE clause — column order matters.
