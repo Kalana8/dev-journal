@@ -56,3 +56,6 @@ JWT expiry is a UX decision as much as a security one — too short and you anno
 
 ## 2026-09-29
 A composite index only helps a query if the leading column is used in the WHERE clause — column order matters.
+
+## 2026-09-30
+Client-side form validation is UX, not security — validate again on the server no matter how good the frontend checks are.
