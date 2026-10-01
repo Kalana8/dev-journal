@@ -59,3 +59,6 @@ A composite index only helps a query if the leading column is used in the WHERE 
 
 ## 2026-09-30
 Client-side form validation is UX, not security — validate again on the server no matter how good the frontend checks are.
+
+## 2026-10-01
+Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
