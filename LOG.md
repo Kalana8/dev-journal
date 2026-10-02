@@ -62,3 +62,6 @@ Client-side form validation is UX, not security — validate again on the server
 
 ## 2026-10-01
 Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
+
+## 2026-10-02
+A staging environment that doesn't mirror production data volume will hide the bugs that only show up at scale.
