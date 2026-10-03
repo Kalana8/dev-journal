@@ -65,3 +65,6 @@ Log structured JSON, not free-text strings — it's the difference between grepp
 
 ## 2026-10-02
 A staging environment that doesn't mirror production data volume will hide the bugs that only show up at scale.
+
+## 2026-10-03
+Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
