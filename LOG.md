@@ -68,3 +68,6 @@ A staging environment that doesn't mirror production data volume will hide the b
 
 ## 2026-10-03
 Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
+
+## 2026-10-04
+Edge functions are great for latency-sensitive reads, but keep anything with side effects on a normal server you can retry safely.
