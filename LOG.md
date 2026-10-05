@@ -71,3 +71,6 @@ Optimistic UI updates feel instant, but always reconcile with the server respons
 
 ## 2026-10-04
 Edge functions are great for latency-sensitive reads, but keep anything with side effects on a normal server you can retry safely.
+
+## 2026-10-05
+Zod schemas can double as both API validation and TypeScript types — one source of truth beats writing both by hand.
