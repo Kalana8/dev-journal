@@ -74,3 +74,6 @@ Edge functions are great for latency-sensitive reads, but keep anything with sid
 
 ## 2026-10-05
 Zod schemas can double as both API validation and TypeScript types — one source of truth beats writing both by hand.
+
+## 2026-10-06
+Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
