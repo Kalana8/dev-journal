@@ -77,3 +77,6 @@ Zod schemas can double as both API validation and TypeScript types — one sourc
 
 ## 2026-10-06
 Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
+
+## 2026-10-07
+Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
