@@ -83,3 +83,6 @@ Log structured JSON, not free-text strings — it's the difference between grepp
 
 ## 2026-10-08
 A staging environment that doesn't mirror production data volume will hide the bugs that only show up at scale.
+
+## 2026-10-09
+Testing the unhappy path (network failure, empty state, permission denied) catches more real bugs than testing the happy path twice.
