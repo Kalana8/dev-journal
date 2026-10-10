@@ -86,3 +86,6 @@ A staging environment that doesn't mirror production data volume will hide the b
 
 ## 2026-10-09
 Testing the unhappy path (network failure, empty state, permission denied) catches more real bugs than testing the happy path twice.
+
+## 2026-10-10
+CORS errors almost always mean the preflight OPTIONS request isn't being handled, not that the actual request is wrong.
