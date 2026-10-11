@@ -89,3 +89,6 @@ Testing the unhappy path (network failure, empty state, permission denied) catch
 
 ## 2026-10-10
 CORS errors almost always mean the preflight OPTIONS request isn't being handled, not that the actual request is wrong.
+
+## 2026-10-11
+Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
