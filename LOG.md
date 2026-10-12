@@ -92,3 +92,6 @@ CORS errors almost always mean the preflight OPTIONS request isn't being handled
 
 ## 2026-10-11
 Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
+
+## 2026-10-12
+CSS container queries are production-ready now and often replace what used to need a JS resize observer.
