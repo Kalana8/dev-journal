@@ -95,3 +95,6 @@ Log structured JSON, not free-text strings — it's the difference between grepp
 
 ## 2026-10-12
 CSS container queries are production-ready now and often replace what used to need a JS resize observer.
+
+## 2026-10-13
+Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
