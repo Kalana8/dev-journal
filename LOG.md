@@ -98,3 +98,6 @@ CSS container queries are production-ready now and often replace what used to ne
 
 ## 2026-10-13
 Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
+
+## 2026-10-14
+Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobile networks and double-clicks alike.
