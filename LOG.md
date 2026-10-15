@@ -101,3 +101,6 @@ Log structured JSON, not free-text strings — it's the difference between grepp
 
 ## 2026-10-14
 Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobile networks and double-clicks alike.
+
+## 2026-10-15
+A staging environment that doesn't mirror production data volume will hide the bugs that only show up at scale.
