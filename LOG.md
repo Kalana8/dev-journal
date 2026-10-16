@@ -104,3 +104,6 @@ Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobi
 
 ## 2026-10-15
 A staging environment that doesn't mirror production data volume will hide the bugs that only show up at scale.
+
+## 2026-10-16
+Rate-limit your own public API endpoints before someone else finds out you didn't.
