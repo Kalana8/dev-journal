@@ -107,3 +107,6 @@ A staging environment that doesn't mirror production data volume will hide the b
 
 ## 2026-10-16
 Rate-limit your own public API endpoints before someone else finds out you didn't.
+
+## 2026-10-17
+A well-named git commit is documentation you write once and read forever — future-you will thank present-you.
