@@ -110,3 +110,6 @@ Rate-limit your own public API endpoints before someone else finds out you didn'
 
 ## 2026-10-17
 A well-named git commit is documentation you write once and read forever — future-you will thank present-you.
+
+## 2026-10-18
+Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobile networks and double-clicks alike.
