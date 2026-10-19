@@ -113,3 +113,6 @@ A well-named git commit is documentation you write once and read forever — fut
 
 ## 2026-10-18
 Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobile networks and double-clicks alike.
+
+## 2026-10-19
+TypeScript's strict mode catches a surprising number of real bugs, not just style nits — worth the initial pain of turning it on.
