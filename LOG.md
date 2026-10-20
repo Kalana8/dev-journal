@@ -116,3 +116,6 @@ Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobi
 
 ## 2026-10-19
 TypeScript's strict mode catches a surprising number of real bugs, not just style nits — worth the initial pain of turning it on.
+
+## 2026-10-20
+A well-named git commit is documentation you write once and read forever — future-you will thank present-you.
