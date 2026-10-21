@@ -119,3 +119,6 @@ TypeScript's strict mode catches a surprising number of real bugs, not just styl
 
 ## 2026-10-20
 A well-named git commit is documentation you write once and read forever — future-you will thank present-you.
+
+## 2026-10-21
+Testing the unhappy path (network failure, empty state, permission denied) catches more real bugs than testing the happy path twice.
