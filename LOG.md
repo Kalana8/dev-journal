@@ -122,3 +122,6 @@ A well-named git commit is documentation you write once and read forever — fut
 
 ## 2026-10-21
 Testing the unhappy path (network failure, empty state, permission denied) catches more real bugs than testing the happy path twice.
+
+## 2026-10-22
+A loading skeleton that matches the real layout feels faster than a spinner, even at the same actual load time.
