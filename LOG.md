@@ -125,3 +125,6 @@ Testing the unhappy path (network failure, empty state, permission denied) catch
 
 ## 2026-10-22
 A loading skeleton that matches the real layout feels faster than a spinner, even at the same actual load time.
+
+## 2026-10-23
+CORS errors almost always mean the preflight OPTIONS request isn't being handled, not that the actual request is wrong.
