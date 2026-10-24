@@ -128,3 +128,6 @@ A loading skeleton that matches the real layout feels faster than a spinner, eve
 
 ## 2026-10-23
 CORS errors almost always mean the preflight OPTIONS request isn't being handled, not that the actual request is wrong.
+
+## 2026-10-24
+Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
