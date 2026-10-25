@@ -131,3 +131,6 @@ CORS errors almost always mean the preflight OPTIONS request isn't being handled
 
 ## 2026-10-24
 Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
+
+## 2026-10-25
+Postgres partial indexes (CREATE INDEX ... WHERE ...) can shrink index size a lot when you only ever query a subset of rows.
