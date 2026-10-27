@@ -137,3 +137,6 @@ Postgres partial indexes (CREATE INDEX ... WHERE ...) can shrink index size a lo
 
 ## 2026-10-26
 Pagination with cursor-based keys scales far better than OFFSET once a table gets into the millions of rows.
+
+## 2026-10-27
+Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
