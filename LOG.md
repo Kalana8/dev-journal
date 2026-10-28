@@ -140,3 +140,6 @@ Pagination with cursor-based keys scales far better than OFFSET once a table get
 
 ## 2026-10-27
 Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
+
+## 2026-10-28
+useMemo and useCallback aren't free — only reach for them when a child is memoized or a computation is genuinely expensive.
