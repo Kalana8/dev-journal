@@ -143,3 +143,6 @@ Optimistic UI updates feel instant, but always reconcile with the server respons
 
 ## 2026-10-28
 useMemo and useCallback aren't free — only reach for them when a child is memoized or a computation is genuinely expensive.
+
+## 2026-10-29
+Supabase Realtime subscriptions can pile up fast if components don't clean up on unmount — always return the unsubscribe function.
