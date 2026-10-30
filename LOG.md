@@ -146,3 +146,6 @@ useMemo and useCallback aren't free — only reach for them when a child is memo
 
 ## 2026-10-29
 Supabase Realtime subscriptions can pile up fast if components don't clean up on unmount — always return the unsubscribe function.
+
+## 2026-10-30
+Node's structuredClone() is a built-in deep clone — no need for JSON.parse(JSON.stringify()) anymore.
