@@ -152,3 +152,6 @@ Node's structuredClone() is a built-in deep clone — no need for JSON.parse(JSO
 
 ## 2026-10-31
 Node's structuredClone() is a built-in deep clone — no need for JSON.parse(JSON.stringify()) anymore.
+
+## 2026-11-01
+CSS container queries are production-ready now and often replace what used to need a JS resize observer.
