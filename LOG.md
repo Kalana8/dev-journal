@@ -158,3 +158,6 @@ CSS container queries are production-ready now and often replace what used to ne
 
 ## 2026-11-02
 Log structured JSON, not free-text strings — it's the difference between grepping and actually querying your logs later.
+
+## 2026-11-03
+React's key prop should be a stable ID, never an array index, if the list can reorder or filter.
