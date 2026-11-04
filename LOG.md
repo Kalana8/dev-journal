@@ -161,3 +161,6 @@ Log structured JSON, not free-text strings — it's the difference between grepp
 
 ## 2026-11-03
 React's key prop should be a stable ID, never an array index, if the list can reorder or filter.
+
+## 2026-11-04
+Multi-tenant SaaS: always scope queries by tenant_id at the query-builder level, not just in RLS, so a bug fails loudly instead of leaking data.
