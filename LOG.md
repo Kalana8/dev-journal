@@ -164,3 +164,6 @@ React's key prop should be a stable ID, never an array index, if the list can re
 
 ## 2026-11-04
 Multi-tenant SaaS: always scope queries by tenant_id at the query-builder level, not just in RLS, so a bug fails loudly instead of leaking data.
+
+## 2026-11-05
+Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
