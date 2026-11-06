@@ -167,3 +167,6 @@ Multi-tenant SaaS: always scope queries by tenant_id at the query-builder level,
 
 ## 2026-11-05
 Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
+
+## 2026-11-06
+TypeScript's strict mode catches a surprising number of real bugs, not just style nits — worth the initial pain of turning it on.
