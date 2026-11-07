@@ -170,3 +170,6 @@ Optimistic UI updates feel instant, but always reconcile with the server respons
 
 ## 2026-11-06
 TypeScript's strict mode catches a surprising number of real bugs, not just style nits — worth the initial pain of turning it on.
+
+## 2026-11-07
+A good onboarding flow saves support tickets — the cheapest customer support is the one you never need.
