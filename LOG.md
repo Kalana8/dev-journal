@@ -173,3 +173,6 @@ TypeScript's strict mode catches a surprising number of real bugs, not just styl
 
 ## 2026-11-07
 A good onboarding flow saves support tickets — the cheapest customer support is the one you never need.
+
+## 2026-11-08
+Debounce expensive onChange handlers in React forms — it cuts re-renders and API calls dramatically on large forms.
