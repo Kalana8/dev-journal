@@ -179,3 +179,6 @@ Debounce expensive onChange handlers in React forms — it cuts re-renders and A
 
 ## 2026-11-10
 A monorepo with shared types between frontend and backend kills a whole category of "the API changed and nobody told the client" bugs.
+
+## 2026-11-10
+Database migrations should always be reversible — write the down migration before you need it in a panic.
