@@ -176,3 +176,6 @@ A good onboarding flow saves support tickets — the cheapest customer support i
 
 ## 2026-11-08
 Debounce expensive onChange handlers in React forms — it cuts re-renders and API calls dramatically on large forms.
+
+## 2026-11-10
+A monorepo with shared types between frontend and backend kills a whole category of "the API changed and nobody told the client" bugs.
