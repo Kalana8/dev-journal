@@ -182,3 +182,6 @@ A monorepo with shared types between frontend and backend kills a whole category
 
 ## 2026-11-10
 Database migrations should always be reversible — write the down migration before you need it in a panic.
+
+## 2026-11-11
+Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
