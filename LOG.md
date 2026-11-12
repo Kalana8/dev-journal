@@ -185,3 +185,6 @@ Database migrations should always be reversible — write the down migration bef
 
 ## 2026-11-11
 Optimistic UI updates feel instant, but always reconcile with the server response — don't just trust the optimistic state forever.
+
+## 2026-11-12
+Postgres EXPLAIN ANALYZE is the fastest way to find out why a "simple" query is suddenly slow after the table grew.
