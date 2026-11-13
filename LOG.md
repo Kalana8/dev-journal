@@ -188,3 +188,6 @@ Optimistic UI updates feel instant, but always reconcile with the server respons
 
 ## 2026-11-12
 Postgres EXPLAIN ANALYZE is the fastest way to find out why a "simple" query is suddenly slow after the table grew.
+
+## 2026-11-13
+Environment-specific config belongs in env vars, never hardcoded — even "just for now" hardcoding has a way of becoming permanent.
