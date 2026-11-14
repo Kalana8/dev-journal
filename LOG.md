@@ -191,3 +191,6 @@ Postgres EXPLAIN ANALYZE is the fastest way to find out why a "simple" query is 
 
 ## 2026-11-13
 Environment-specific config belongs in env vars, never hardcoded — even "just for now" hardcoding has a way of becoming permanent.
+
+## 2026-11-14
+A loading skeleton that matches the real layout feels faster than a spinner, even at the same actual load time.
