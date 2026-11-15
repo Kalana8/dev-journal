@@ -194,3 +194,6 @@ Environment-specific config belongs in env vars, never hardcoded — even "just 
 
 ## 2026-11-14
 A loading skeleton that matches the real layout feels faster than a spinner, even at the same actual load time.
+
+## 2026-11-15
+A staging environment that doesn't mirror production data volume will hide the bugs that only show up at scale.
