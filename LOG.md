@@ -200,3 +200,6 @@ A staging environment that doesn't mirror production data volume will hide the b
 
 ## 2026-11-17
 Postgres partial indexes (CREATE INDEX ... WHERE ...) can shrink index size a lot when you only ever query a subset of rows.
+
+## 2026-11-17
+A composite index only helps a query if the leading column is used in the WHERE clause — column order matters.
