@@ -197,3 +197,6 @@ A loading skeleton that matches the real layout feels faster than a spinner, eve
 
 ## 2026-11-15
 A staging environment that doesn't mirror production data volume will hide the bugs that only show up at scale.
+
+## 2026-11-17
+Postgres partial indexes (CREATE INDEX ... WHERE ...) can shrink index size a lot when you only ever query a subset of rows.
