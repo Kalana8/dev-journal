@@ -203,3 +203,6 @@ Postgres partial indexes (CREATE INDEX ... WHERE ...) can shrink index size a lo
 
 ## 2026-11-17
 A composite index only helps a query if the leading column is used in the WHERE clause — column order matters.
+
+## 2026-11-18
+Multi-tenant SaaS: always scope queries by tenant_id at the query-builder level, not just in RLS, so a bug fails loudly instead of leaking data.
