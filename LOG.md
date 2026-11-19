@@ -206,3 +206,6 @@ A composite index only helps a query if the leading column is used in the WHERE 
 
 ## 2026-11-18
 Multi-tenant SaaS: always scope queries by tenant_id at the query-builder level, not just in RLS, so a bug fails loudly instead of leaking data.
+
+## 2026-11-19
+Database migrations should always be reversible — write the down migration before you need it in a panic.
