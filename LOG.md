@@ -209,3 +209,6 @@ Multi-tenant SaaS: always scope queries by tenant_id at the query-builder level,
 
 ## 2026-11-19
 Database migrations should always be reversible — write the down migration before you need it in a panic.
+
+## 2026-11-20
+A loading skeleton that matches the real layout feels faster than a spinner, even at the same actual load time.
