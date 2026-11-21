@@ -212,3 +212,6 @@ Database migrations should always be reversible — write the down migration bef
 
 ## 2026-11-20
 A loading skeleton that matches the real layout feels faster than a spinner, even at the same actual load time.
+
+## 2026-11-21
+CSS container queries are production-ready now and often replace what used to need a JS resize observer.
