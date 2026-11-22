@@ -215,3 +215,6 @@ A loading skeleton that matches the real layout feels faster than a spinner, eve
 
 ## 2026-11-21
 CSS container queries are production-ready now and often replace what used to need a JS resize observer.
+
+## 2026-11-22
+Client-side form validation is UX, not security — validate again on the server no matter how good the frontend checks are.
