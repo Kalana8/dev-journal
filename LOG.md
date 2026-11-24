@@ -218,3 +218,6 @@ CSS container queries are production-ready now and often replace what used to ne
 
 ## 2026-11-22
 Client-side form validation is UX, not security — validate again on the server no matter how good the frontend checks are.
+
+## 2026-11-24
+Supabase Row Level Security policies are evaluated per-row — write them with an index-friendly WHERE clause or they'll silently slow every query.
