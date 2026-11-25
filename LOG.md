@@ -221,3 +221,6 @@ Client-side form validation is UX, not security — validate again on the server
 
 ## 2026-11-24
 Supabase Row Level Security policies are evaluated per-row — write them with an index-friendly WHERE clause or they'll silently slow every query.
+
+## 2026-11-25
+Next.js server actions still need their own input validation — never trust the client just because the call looks server-side.
