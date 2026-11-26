@@ -224,3 +224,6 @@ Supabase Row Level Security policies are evaluated per-row — write them with a
 
 ## 2026-11-25
 Next.js server actions still need their own input validation — never trust the client just because the call looks server-side.
+
+## 2026-11-26
+A staging environment that doesn't mirror production data volume will hide the bugs that only show up at scale.
