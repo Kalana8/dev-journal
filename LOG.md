@@ -227,3 +227,6 @@ Next.js server actions still need their own input validation — never trust the
 
 ## 2026-11-26
 A staging environment that doesn't mirror production data volume will hide the bugs that only show up at scale.
+
+## 2026-11-27
+Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobile networks and double-clicks alike.
