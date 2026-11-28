@@ -230,3 +230,6 @@ A staging environment that doesn't mirror production data volume will hide the b
 
 ## 2026-11-27
 Idempotency keys on POST endpoints prevent duplicate submissions from flaky mobile networks and double-clicks alike.
+
+## 2026-11-28
+Postgres partial indexes (CREATE INDEX ... WHERE ...) can shrink index size a lot when you only ever query a subset of rows.
